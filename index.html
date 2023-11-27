@@ -6,29 +6,52 @@
     <title>Yanaha</title>
 </head>
 <body>
-    <!-- Header section -->
+    <!-- Header Section -->
     <header>
         <h1>Yanaha</h1>
         <p>Motorcycle manufacturer</p>
     </header>
-    <!-- End of Header section -->
+    <!-- End of Header Section -->
     <hr>
 
-    <!-- About section -->
-    <section>
-        <div>
-            <img src="images/classic.jpg" alt="riding classic" style="width:440px;height:280px">
-            <img src="images/sporty.jpg" alt="riding sportsbike" style="width:440px;height:280px">
-        </div>
-        <div>
-            <iframe width="884" height="615" src="https://www.youtube.com/embed/mc5OkNBXVVY?si=RimmbmCA5aAl9PeX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <article>
-            <p>Yanaha is the top leading motorcycle manufacturer worldwide since 2023.</p>
-            <p>Elevate your style and riding comfort with our products!</p>
-        </article>
-    </section>
-    
-    <!-- End of About section -->
+    <main>
+        <!-- About Section -->
+        <section>
+            <div>
+                <img src="images/classic.jpg" alt="riding classic" style="width:440px;height:280px">
+                <img src="images/sporty.jpg" alt="riding sportsbike" style="width:440px;height:280px">
+            </div>
+            <div>
+                <iframe width="884" height="615" src="https://www.youtube.com/embed/mc5OkNBXVVY?si=RimmbmCA5aAl9PeX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <article>
+                <p>Yanaha is the top leading motorcycle manufacturer worldwide since 2023.</p>
+                <p>Elevate your style and riding comfort with our products!</p>
+            </article>
+        </section>
+        <!-- End of About Section -->
+        <hr>
+
+        <!-- Contact Form Section -->
+        <section>
+            <form>
+                <h3>For any inquiries, fill out a form below:</h3>
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input id="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email Address:</label><br>
+                    <input id="email" type="text" required>
+                </div>
+                <div>
+                    <label for="inquiry">Inquiry:</label><br>
+                    <textarea name="inquiry" id="" cols="30" rows="5" required></textarea><br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- End of Contact Form Section -->
+    </main>
 </body>
 </html>
