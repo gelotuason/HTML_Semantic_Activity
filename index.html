@@ -6,18 +6,28 @@
     <title>Yanaha</title>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
+    <!-- Home Section -->
+    <header id="home">
         <h1>Yanaha</h1>
         <p>Motorcycle manufacturer</p>
     </header>
-    <!-- End of Header Section -->
+    <!-- End of Home Section -->
+
+    <hr>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#home"><strong>Home</strong></a> |
+        <a href="#about"><strong>About</strong></a> |
+        <a href="#contact"><strong>Contact</strong></a>
+    </nav>
+    <!-- End of Navigation Section -->
 
     <hr>
 
     <main>
         <!-- About Section -->
-        <section style="text-align: center;">
+        <section id="about" style="text-align: center;">
             <div>
                 <img src="images/classic.jpg" alt="riding classic" style="width:440px;height:280px;">
                 <img src="images/sporty.jpg" alt="riding sportsbike" style="width:440px;height:280px">
@@ -35,7 +45,7 @@
         <hr>
 
         <!-- Contact Form Section -->
-        <section>
+        <section id="contact">
             <form>
                 <h3>For any inquiries, fill out a form below:</h3>
                 <div>
@@ -58,10 +68,11 @@
     </main>
 
     <br>
-    <hr>
 
     <!-- Footer Section -->
     <footer>
+        <a href="#home"><strong>Back to top</strong></a>
+        <hr>
         <p>© 2023 Yanaha. All rights reserved.</p>
     </footer>
     <!-- End of Footer Section -->
